@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+}
+#dice-roll{
+  height: 50px;
+  width: 25px;
+  padding-left: 50rem;
+  background-position: center;  
+  
+}
+#player1{
+    background-color: aqua;
+    height: 10rem;
+    width:10rem ;
+    color: blue;
+}
+#player2{
+    background-color: brown;
+    height: 10rem;
+    width: 10rem;
+    
+    margin-left: auto;
+    margin-top: 0px;
+}
+#frame{
+    height: 25rem;
+    width:auto;
+    background-color: black;
+}
+table{
+    margin-left: 15rem;
+    background-color: darkolivegreen;
+}
+img{
+    background-position: center;
+    
+    margin-top: 0.5rem;
+    padding-left: 18rem;
+}
+#btn{
+    height:5rem;
+    width:5rem;
+    padding-left: 10px;
+    background-color: rgb(0, 255, 85);
+}
+btn:hover{
+    background-color: aqua;
+}
+
+span{
+    height: 100px;
+    width: 100px;
+    background-color: azure;
+    margin: 25px;
+}
+#two{
+    background-color: blue;
+}
+.formating{
+    background-color: burlywood;
+}
+thead{
+    background-color: azure;
+}
