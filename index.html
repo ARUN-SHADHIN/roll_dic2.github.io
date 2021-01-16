@@ -13,26 +13,29 @@
   <body style="font-family: 'Times New Roman', Times, serif; background-color:lightgoldenrodyellow;">
     <h1 class="win" style="background-color: chocolate; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">ROLL DICE GAME</h1><br>
     <h2 style="font-style: oblique; color: blueviolet;">Current player : <span class="current">Player 1</span></h2>
-    FIRST PLAYER NAME :-<input type="text" class="first"><br><br>
-    SECOND PLAYER NAME :- <input type="text" class="second"><br><br>
-    <button class="add">ADD</button>
+    <h1 style="font-family: 'Courier New', Courier, monospace; font-size:larger;">FIRST PLAYER NAME :-</h1><input type="text" class="first"><br><br>
+    <h1 style="font-family: 'Courier New', Courier, monospace; font-size: larger;">SECOND PLAYER NAME :- </h1><input type="text" class="second"><br><br>
+    <button class="add">ADD</button><br><br>
     <table>
       <thead><tr><td><h3 class="player1">???</h3>
       </td>
       <td><h3 class="player2">???</h3></td></tr></thead>
       <tr>
-        <td><div id="player1">
-          <h1><span class="score1"></span></h1>
-                </div>
+        <td>
+          <div id="player1">
+          <h1><span class="score1">0</span><br></h1>
+          <button class="hold1">HOLD SCORE </button>
+          </div>
         </td>
         <td>
           <div id="player2">
-            <h1><span class="score2"></span></h1>
+            <h1><span class="score2">0</span><br></h1>
+            <button class="hold2">HOLD SCORE</button>
           </div>
         </td>
       </tr>
       <tr id="third"><td rowspan="3" colspan="3">
-        <img src="dice-1.png" alt="" id="dice" height="75px" width="75px"><br><button id="btn"><b> ROLL DEVICE</b></button></td>
+        <button id="btn"><b> ROLL DICE</b></button>   <img src="dice-1.png" alt="" id="dice" height="75px" width="75px"></td>
         <td><button class="formating" id="">reset</button></td>
       </tr>
         

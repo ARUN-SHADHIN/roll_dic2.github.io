@@ -28,23 +28,28 @@ body{
     background-color: black;
 }
 table{
-    margin-left: 15rem;
+    margin-left: 25rem;
     background-color: darkolivegreen;
 }
 img{
     background-position: center;
     
     margin-top: 0.5rem;
-    padding-left: 18rem;
+    padding-left: 0rem;
 }
 #btn{
     height:5rem;
     width:5rem;
-    padding-left: 10px;
+    margin-top: 0.5rem;
+    padding-left: 0px;
     background-color: rgb(0, 255, 85);
 }
 btn:hover{
     background-color: aqua;
+    color: violet;
+}
+btn:visited{
+    color: chartreuse;
 }
 
 span{
